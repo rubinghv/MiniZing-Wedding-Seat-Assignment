@@ -10,10 +10,8 @@ int: groupSize = 2;
 
 %Troublemakers
 array[1..2] of int: Trouble; % need to fix this
-
 % Groups
 array[1..nGroups] of set of int: Groups;
-
 %Preference
 array[1..nGuests] of set of int: Pref;
 
@@ -22,17 +20,19 @@ set of int: Tables = 1..nTables;
 set of int: GuestNum = 1..nGuests;
 array[1..nGuests] of var GuestNum: GuestAt; % same as in description of assignment
 
-% No table has more people at it than nSeats.
-constraint 
-forall(table in 1..nTables) (
-    atmost(nSeats, GuestAt, table) 
+% make sure there is somebody at every table
+constraint
+forall(guest in 1..nGuests) (
+   GuestAt[guest] <= nTables 
 );
 
-%Every table must have at least ⌊nSeats/2⌋ people at it.
 constraint 
 forall(table in 1..nTables) (
+    % No table has more people at it than nSeats.
+    atmost(nSeats, GuestAt, table) /\
+    %Every table must have at least ⌊nSeats/2⌋ people at it.
     atleast(floor(nSeats/2), GuestAt, table)
- );
+);
 
 
 % Every person must be seated with their group.
@@ -48,32 +48,12 @@ forall(guest1, guest2 in 1..2) (
         if guest1 == guest2 then true else GuestAt[Trouble[guest1]] != GuestAt[Trouble[guest2]] endif
 );
 
-
-
-      % set number of elements to 
-      %card(tabletoo[t]) = GuestPerTable
- 
-      %% channel between tables and x (use int_set_channel instead)
-      % /\
-      % forall(j in 1..k) (
-      %   x[j] = t <-> j in tables[t]
-      % )
-
-
-
-
-% make sure no guest is seated twice (every number unique)
-%all_different(array [int] of var set of int: x)
-%constraint forall(table in Seating)(alldifferent(Seating[table[i]]));
-
-%constraint alldifferent(Seating[nGroups]);
-
-%constraint forall(t in 1..nTables) (
- %     card(Seating[t])
-%);
-
-
-solve satisfy;
+% calculate utalitarian happiness
+var int: utalitarian_hap = sum(guest in 1..nGuests, pref in 1..card(Pref[guest]))(
+      % if table of guest equals table of a guest in the list of Pref[guest], add to util
+      if GuestAt[guest] == GuestAt[Pref[guest][pref]] then PrefWeight else 0 endif
+);
+solve maximize utalitarian_hap;
 
 
 
@@ -91,5 +71,7 @@ output [if t == 1 /\ g == 1 then "Table: Guests:\n" else "" endif++
             if g == 1 then "   "++show(t)++" : {" else "" endif++
             if fix(GuestAt[g]) == t then show(g)++"," else "" endif ++
             if g == nGuests then "}\n" else "" endif % to to new line
-            | t in 1..nTables, g in 1..nGuests 
-            ]
+            | t in 1..nTables, g in 1..nGuests ] ++
+            ["Utilitarian Happiness: " ++ show(utalitarian_hap) ++ "\n" ++
+             "Egalitarian Happiness: " ++ "?" ];
+            
