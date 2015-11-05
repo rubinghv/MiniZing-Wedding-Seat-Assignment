@@ -1,0 +1,612 @@
+Compiling ass3.mzn with data ass3-guest20.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,12,13,20}
+   4 : {,2,9,14,15,18}
+Utilitarian Happiness: 39
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,15,18,20}
+   4 : {,2,9,12,13,14}
+Utilitarian Happiness: 42
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,2,5,6,15,20}
+   4 : {,9,12,13,14,18}
+Utilitarian Happiness: 48
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,8,11,12,13,19}
+   3 : {,2,5,6,15,20}
+   4 : {,7,9,14,16,18}
+Utilitarian Happiness: 54
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 73msec
+Compiling ass3.mzn with data ass3-guest20.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,12,13,20}
+   4 : {,2,9,14,15,18}
+Utilitarian Happiness: 39
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,15,18,20}
+   4 : {,2,9,12,13,14}
+Utilitarian Happiness: 42
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,2,5,6,15,20}
+   4 : {,9,12,13,14,18}
+Utilitarian Happiness: 48
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,8,11,12,13,19}
+   3 : {,2,5,6,15,20}
+   4 : {,7,9,14,16,18}
+Utilitarian Happiness: 54
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 75msec
+Compiling ass3.mzn with data ass3-guest20.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,12,13,20}
+   4 : {,2,9,14,15,18}
+Utilitarian Happiness: 39
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,15,18,20}
+   4 : {,2,9,12,13,14}
+Utilitarian Happiness: 42
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,2,5,6,15,20}
+   4 : {,9,12,13,14,18}
+Utilitarian Happiness: 48
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,8,11,12,13,19}
+   3 : {,2,5,6,15,20}
+   4 : {,7,9,14,16,18}
+Utilitarian Happiness: 54
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 65msec
+Compiling ass3.mzn with data ass3-guest20.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,12,13,20}
+   4 : {,2,9,14,15,18}
+Utilitarian Happiness: 39
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,15,18,20}
+   4 : {,2,9,12,13,14}
+Utilitarian Happiness: 42
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,2,5,6,15,20}
+   4 : {,9,12,13,14,18}
+Utilitarian Happiness: 48
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,8,11,12,13,19}
+   3 : {,2,5,6,15,20}
+   4 : {,7,9,14,16,18}
+Utilitarian Happiness: 54
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 70msec
+Compiling ass3.mzn with data ass3-guest20.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,12,13,20}
+   4 : {,2,9,14,15,18}
+Utilitarian Happiness: 39
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,15,18,20}
+   4 : {,2,9,12,13,14}
+Utilitarian Happiness: 42
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,2,5,6,15,20}
+   4 : {,9,12,13,14,18}
+Utilitarian Happiness: 48
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,8,11,12,13,19}
+   3 : {,2,5,6,15,20}
+   4 : {,7,9,14,16,18}
+Utilitarian Happiness: 54
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 65msec
+Compiling ass3.mzn with data ass3-guest20.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,12,13,20}
+   4 : {,2,9,14,15,18}
+Utilitarian Happiness: 39
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,15,18,20}
+   4 : {,2,9,12,13,14}
+Utilitarian Happiness: 42
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,2,5,6,15,20}
+   4 : {,9,12,13,14,18}
+Utilitarian Happiness: 48
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,8,11,12,13,19}
+   3 : {,2,5,6,15,20}
+   4 : {,7,9,14,16,18}
+Utilitarian Happiness: 54
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 70msec
+Compiling ass3.mzn with data ass3-guest20.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,12,13,20}
+   4 : {,2,9,14,15,18}
+Utilitarian Happiness: 39
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,15,18,20}
+   4 : {,2,9,12,13,14}
+Utilitarian Happiness: 42
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,2,5,6,15,20}
+   4 : {,9,12,13,14,18}
+Utilitarian Happiness: 48
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,8,11,12,13,19}
+   3 : {,2,5,6,15,20}
+   4 : {,7,9,14,16,18}
+Utilitarian Happiness: 54
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 73msec
+Compiling ass3.mzn with data ass3-guest20.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,12,13,20}
+   4 : {,2,9,14,15,18}
+Utilitarian Happiness: 39
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,15,18,20}
+   4 : {,2,9,12,13,14}
+Utilitarian Happiness: 42
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,2,5,6,15,20}
+   4 : {,9,12,13,14,18}
+Utilitarian Happiness: 48
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,8,11,12,13,19}
+   3 : {,2,5,6,15,20}
+   4 : {,7,9,14,16,18}
+Utilitarian Happiness: 54
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 62msec
+Compiling ass3.mzn with data ass3-guest20.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,12,13,20}
+   4 : {,2,9,14,15,18}
+Utilitarian Happiness: 39
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,15,18,20}
+   4 : {,2,9,12,13,14}
+Utilitarian Happiness: 42
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,2,5,6,15,20}
+   4 : {,9,12,13,14,18}
+Utilitarian Happiness: 48
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,8,11,12,13,19}
+   3 : {,2,5,6,15,20}
+   4 : {,7,9,14,16,18}
+Utilitarian Happiness: 54
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 68msec
+Compiling ass3.mzn with data ass3-guest20.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,12,13,20}
+   4 : {,2,9,14,15,18}
+Utilitarian Happiness: 39
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,15,18,20}
+   4 : {,2,9,12,13,14}
+Utilitarian Happiness: 42
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,2,5,6,15,20}
+   4 : {,9,12,13,14,18}
+Utilitarian Happiness: 48
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,8,11,12,13,19}
+   3 : {,2,5,6,15,20}
+   4 : {,7,9,14,16,18}
+Utilitarian Happiness: 54
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 61msec
+Compiling ass3.mzn with data ass3-guest20.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,12,13,20}
+   4 : {,2,9,14,15,18}
+Utilitarian Happiness: 39
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,15,18,20}
+   4 : {,2,9,12,13,14}
+Utilitarian Happiness: 42
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,2,5,6,15,20}
+   4 : {,9,12,13,14,18}
+Utilitarian Happiness: 48
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,8,11,12,13,19}
+   3 : {,2,5,6,15,20}
+   4 : {,7,9,14,16,18}
+Utilitarian Happiness: 54
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 76msec
+Compiling ass3.mzn with data ass3-guest20.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,12,13,20}
+   4 : {,2,9,14,15,18}
+Utilitarian Happiness: 39
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,15,18,20}
+   4 : {,2,9,12,13,14}
+Utilitarian Happiness: 42
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,2,5,6,15,20}
+   4 : {,9,12,13,14,18}
+Utilitarian Happiness: 48
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,8,11,12,13,19}
+   3 : {,2,5,6,15,20}
+   4 : {,7,9,14,16,18}
+Utilitarian Happiness: 54
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 73msec
+Compiling ass3.mzn with data ass3-guest20.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,12,13,20}
+   4 : {,2,9,14,15,18}
+Utilitarian Happiness: 39
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,15,18,20}
+   4 : {,2,9,12,13,14}
+Utilitarian Happiness: 42
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,2,5,6,15,20}
+   4 : {,9,12,13,14,18}
+Utilitarian Happiness: 48
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,8,11,12,13,19}
+   3 : {,2,5,6,15,20}
+   4 : {,7,9,14,16,18}
+Utilitarian Happiness: 54
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 82msec
+Compiling ass3.mzn with data ass3-guest20.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,12,13,20}
+   4 : {,2,9,14,15,18}
+Utilitarian Happiness: 39
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,15,18,20}
+   4 : {,2,9,12,13,14}
+Utilitarian Happiness: 42
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,2,5,6,15,20}
+   4 : {,9,12,13,14,18}
+Utilitarian Happiness: 48
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,8,11,12,13,19}
+   3 : {,2,5,6,15,20}
+   4 : {,7,9,14,16,18}
+Utilitarian Happiness: 54
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 73msec
+Compiling ass3.mzn with data ass3-guest20.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,12,13,20}
+   4 : {,2,9,14,15,18}
+Utilitarian Happiness: 39
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,15,18,20}
+   4 : {,2,9,12,13,14}
+Utilitarian Happiness: 42
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,2,5,6,15,20}
+   4 : {,9,12,13,14,18}
+Utilitarian Happiness: 48
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,8,11,12,13,19}
+   3 : {,2,5,6,15,20}
+   4 : {,7,9,14,16,18}
+Utilitarian Happiness: 54
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 69msec
+Compiling ass3.mzn with data ass3-guest20.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,12,13,20}
+   4 : {,2,9,14,15,18}
+Utilitarian Happiness: 39
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,15,18,20}
+   4 : {,2,9,12,13,14}
+Utilitarian Happiness: 42
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,2,5,6,15,20}
+   4 : {,9,12,13,14,18}
+Utilitarian Happiness: 48
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,8,11,12,13,19}
+   3 : {,2,5,6,15,20}
+   4 : {,7,9,14,16,18}
+Utilitarian Happiness: 54
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 94msec
+Compiling ass3.mzn with data ass3-guest20.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,12,13,20}
+   4 : {,2,9,14,15,18}
+Utilitarian Happiness: 39
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,5,6,15,18,20}
+   4 : {,2,9,12,13,14}
+Utilitarian Happiness: 42
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,7,8,11,16,19}
+   3 : {,2,5,6,15,20}
+   4 : {,9,12,13,14,18}
+Utilitarian Happiness: 48
+Egalitarian Happiness: 0
+----------
+Table: Guests:
+   1 : {,1,3,4,10,17}
+   2 : {,8,11,12,13,19}
+   3 : {,2,5,6,15,20}
+   4 : {,7,9,14,16,18}
+Utilitarian Happiness: 54
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 64msec

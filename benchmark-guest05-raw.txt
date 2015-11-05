@@ -1,0 +1,200 @@
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 36msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 44msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 31msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 71msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 59msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 59msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 50msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 49msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 29msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 40msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 51msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 84msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 41msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 30msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 53msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 42msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 39msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 60msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 51msec
+Compiling ass3.mzn with data ass3-guest05.dzn
+Running ass3.mzn
+Table: Guests:
+   1 : {,1,5}
+   2 : {,2,3,4}
+Utilitarian Happiness: 9
+Egalitarian Happiness: 0
+----------
+==========
+Finished in 66msec

@@ -1,0 +1,1 @@
+grep '[0-9]ms' benchmark-guest05-raw.txt | cut -d' ' -f3 | cut -d' ' -f1 | sed 's/[a-zA-Z ]//g'

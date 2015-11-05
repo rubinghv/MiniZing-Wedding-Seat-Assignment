@@ -15,7 +15,7 @@ array[1..nGroups] of set of int: Groups;
 %Preference
 array[1..nGuests] of set of int: Pref;
 
-  %Decision variable
+%Decision variable
 set of int: GuestNum = 1..nGuests;
 array[1..nGuests] of var GuestNum: AtTable; % same as in description of assignment
 
@@ -69,11 +69,9 @@ var int: egalitarian_hap = min(guest in 1..nGuests)(
 var int: happiness = if Evaluation == 0 then utalitarian_hap else egalitarian_hap endif;
 solve maximize happiness;
 
-% this is necessary for correct printing of output
-array[1..nTables] of var int: output_table = array1d(table in 1..nTables)(
-    max(guest in 1..nGuests)(if AtTable[guest] == table then guest else 0 endif)
-    
-);
+
+%array[1..nTables] of int: some_array = (a in 1..nTables)(0);
+
 
 % output template:
 %
@@ -87,8 +85,8 @@ array[1..nTables] of var int: output_table = array1d(table in 1..nTables)(
           
 output ["Table: Guests:\n"] ++ 
             [if g == 1 then "   "++show(t)++" : {" else "" endif++
-            if fix(AtTable[g]) == t /\ fix(output_table[t]) != g  then show(g) ++ "," else "" endif++
-            if fix(AtTable[g]) == t /\ fix(output_table[t]) == g  then show(g) ++ "}\n" else "" endif
+            if fix(AtTable[g]) == t then "," ++ show(g)  else "" endif ++
+            if g == nGuests then "}\n" else "" endif % to to new line
             | t in 1..nTables, g in 1..nGuests ] ++
             ["Utilitarian Happiness: " ++ show(utalitarian_hap) ++ "\n" ++
              "Egalitarian Happiness: " ++ show(egalitarian_hap) ];
