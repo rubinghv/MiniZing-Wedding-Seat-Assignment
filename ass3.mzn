@@ -35,11 +35,9 @@ forall(table in 1..nTables) (
 
 
 % Every person must be seated with their group.
-% needs fixing
+% Test if every person in group is at same table as first in group
 constraint 
 forall(g in 1..nGroups) (
-      %let { array[1..groupSize] of int: groupArray = set2array(Groups[g]) } in
-      %AtTable[groupArray[1]] ==  AtTable[groupArray[2]]
       forall(p in 1..card(Groups[g])) (      
           AtTable[Groups[g][1]] ==  AtTable[Groups[g][p]]
       )
@@ -85,10 +83,11 @@ array[1..nTables] of var int: output_table = array1d(table in 1..nTables)(
 %Egalitarian Happiness: 3
 %----------
           
-output ["Table: Guests:\n"] ++ 
-            [if g == 1 then "   "++show(t)++" : {" else "" endif++
-            if fix(AtTable[g]) == t /\ fix(output_table[t]) != g  then show(g) ++ "," else "" endif++
-            if fix(AtTable[g]) == t /\ fix(output_table[t]) == g  then show(g) ++ "}\n" else "" endif
+output ["Table: Guests:\n"] ++ % first line
+            [if g == 1 then "   "++show(t)++" : {" else "" endif++ %start of new table
+            if fix(AtTable[g]) == t /\ fix(output_table[t]) != g  then show(g) ++ "," else "" endif++ %guest at table (not last)
+            if fix(AtTable[g]) == t /\ fix(output_table[t]) == g  then show(g) ++ "}\n" else "" endif %guest at table (last)
             | t in 1..nTables, g in 1..nGuests ] ++
+            %print both evaluations
             ["Utilitarian Happiness: " ++ show(utalitarian_hap) ++ "\n" ++
              "Egalitarian Happiness: " ++ show(egalitarian_hap) ];
